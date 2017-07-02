@@ -205,7 +205,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)\laa.cmd "$(TargetPath)"
+    <PostBuildEvent>"$(SolutionDir)\laa.cmd" "$(TargetPath)"
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

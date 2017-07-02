@@ -111,6 +111,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)\laa.cmd "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>"$(SolutionDir)\laa.cmd" "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

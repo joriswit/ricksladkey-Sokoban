@@ -1,0 +1,10 @@
+LIBRARY ZSokobanSolverPlugin
+EXPORTS
+   SolveEx
+   GetConstraints
+   GetPluginName
+   Configure
+   ShowAbout
+   Terminate
+   Solve
+   GetSolverName
